@@ -128,6 +128,8 @@ class KTP(object):
         while i < val2:
             if f1[i] == f2[i]:
                 val = val + num
+            else:
+                val = val - num
             i += 1
         if val < 60:
             return 0
