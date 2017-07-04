@@ -4,17 +4,11 @@
 Created on Tue Jul  4 15:14:44 2017
 
 @author: Karrar (karrar.kazuya@gmail.com)
-A text processing class
+Version: 1.0
+Disc: A text processing class
 """
 
-
-
-# 
-#  * Author: Karrar (karrar.kazuya@gmail.com)
-#  * Date: 2017-7-3
-#  * Version: 1.0
-#  * Disc: A text processing class
-#  
+ 
 class KTP(object):
     percent = 0
     arlist = ["؟",",","."]
