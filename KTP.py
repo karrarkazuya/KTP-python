@@ -92,11 +92,13 @@ class KTP(object):
         search = search.lower()
         text = KTP.replaceAll(text, cls.arlist, " ")
         text = KTP.replaceAll(text, cls.enlist, " ")
+        search = KTP.replaceAll(search, cls.arlist, " ")
+        search = KTP.replaceAll(search, cls.enlist, " ")
         
        
         #  7# converting both strings to lists
-        temptext = text + " "
-        tempsearch = search + " "
+        temptext = text
+        tempsearch = search
         w = KTP.ConverToList(temptext)
         s = KTP.ConverToList(tempsearch)
         #  8# checking for similarities
