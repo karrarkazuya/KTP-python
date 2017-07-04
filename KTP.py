@@ -112,6 +112,7 @@ class KTP(object):
                     KTP.AddToPercent(num)
                 i += 1
             x += 1
+            i = 0
         return cls.percent
 
     @classmethod
